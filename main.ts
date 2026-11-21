@@ -6,13 +6,13 @@ import { join } from "node:path";
 const POEM = `Sheet
 
 Her agent and mine
-settled the divorce by noon.
+divided twelve years by noon.
 That night we folded the last clean sheet
 as her mother taught us:
-walk toward each other,
+step toward each other,
 corners meeting,
-neither one pulling,
-neither letting go first.`;
+the whole thing getting smaller
+in four hands.`;
 
 const count = [...POEM].length;
 if (count < 1 || count > 280 || POEM.trim() === "") {
